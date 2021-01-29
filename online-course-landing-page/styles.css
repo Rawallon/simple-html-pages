@@ -1,0 +1,300 @@
+:root {
+  --bs-font-serif: 'Playfair Display', serif;
+  --bs-font-sans-serif: 'Poppins', sans-serif;
+  --primary: #ff5722;
+  --primaryLight: rgba(255, 87, 36, 0.16);
+  --secondary: #04004d;
+  --hero-color: #eee0ca;
+  --pseudo-white: #fdfdfd;
+  --disabled: #848199;
+  --footer: #666666;
+}
+#hero {
+  padding-top: 4.625rem;
+  background: var(--hero-color);
+  background: linear-gradient(106.24deg, #eee0ca -0.66%, #f9f3ea 96.85%);
+}
+#brands {
+  background: var(--pseudo-white);
+}
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.font-serif {
+  color: var(--secondary);
+  font-family: var(--bs-font-serif);
+  line-height: 74px;
+}
+/* tirar esse serif TODO */
+.serif {
+  color: var(--secondary);
+  font-family: var(--bs-font-serif);
+}
+.hero-text {
+  position: relative;
+  top: -70px;
+}
+a {
+  color: var(--secondary);
+}
+a:hover {
+  color: #0b02af;
+}
+.pe-header {
+  padding-right: 6.25rem !important;
+}
+
+.me-menu {
+  margin-right: 3.125rem !important;
+}
+
+.active {
+  /* border-top: 1px solid red; */
+  position: relative;
+  font-weight: 500;
+}
+.active::before {
+  content: '';
+  width: 50%;
+  position: absolute;
+  top: -61%;
+  left: 25%;
+  background: red;
+  border-top: 3px solid #ff5722;
+}
+.active::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  background: red;
+  border-top: 3px solid #ff5722;
+  border-radius: 100%;
+}
+
+.mark,
+mark {
+  padding: 0;
+  background: transparent;
+  color: var(--primary);
+}
+
+.card-highlited > .avatar {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+.card-highlited {
+  background: var(--primary);
+  background-image: url(imgs/hexagon.svg);
+  color: white;
+}
+
+.btn-join {
+  border-color: var(--primaryLight);
+  background: var(--primaryLight);
+  color: var(--primary);
+  font-weight: 500;
+}
+.btn-join:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--pseudo-white);
+}
+.class-title {
+  font-weight: 700;
+}
+.card-img-text {
+  background: rgba(0, 0, 0, 0.2);
+}
+.card-img-content h1 {
+  color: #fff;
+  opacity: 80%;
+}
+.fire {
+  width: 24px;
+  height: 24px;
+  background: #f8593b;
+}
+.card-heart {
+  width: 38px;
+  height: 38px;
+  background: #fafafa;
+  top: 15%;
+  left: 8%;
+}
+.video-thumbnail {
+  position: relative;
+}
+.video-thumbnail::before {
+  position: absolute;
+  content: '';
+  top: 10%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  background-image: url(imgs/balls.svg);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.semi-bold {
+  font-weight: 600;
+}
+.avatar {
+  width: 58px;
+  height: 58px;
+  margin-top: -1.87rem;
+}
+.checked img {
+  max-width: 11.47px;
+  max-height: 9.43px;
+}
+.checked {
+  fill: var(--primary);
+  width: 20px;
+  height: 20px;
+  background: var(--primaryLight);
+}
+.checked.disabled {
+  background: rgba(0, 0, 0, 0.1);
+}
+.checked.premium svg {
+  fill: #fff;
+}
+.checked.premium {
+  background: rgba(255, 255, 255, 0.2);
+}
+.disabled {
+  color: var(--disabled);
+  fill: rgba(0, 0, 0, 0.2) !important;
+}
+.hero-image {
+  position: relative;
+}
+.hero-image::after {
+  content: '';
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  top: 0;
+  left: -30%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-image: url(imgs/woman.png);
+}
+.join {
+  background: var(--secondary);
+  color: #fff;
+  padding: 5.2rem 0;
+  background-image: url(imgs/join.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer {
+  background: linear-gradient(93.74deg, #eee0ca 0%, #f9f3ea 100%);
+  color: var(--footer);
+}
+
+/* Bootstrap aditions */
+.shadow-premium {
+  box-shadow: 0 3rem 2rem var(--primaryLight) !important;
+}
+.fw-medium {
+  font-weight: 500 !important;
+}
+.card-primary {
+  border-color: var(--primary) !important;
+}
+.top-25 {
+  top: 25% !important;
+}
+.fs-5-6 {
+  font-size: 1.125rem;
+}
+.fs-7 {
+  font-size: 0.875rem;
+}
+.fs-8 {
+  font-size: 0.75rem;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.p-2-3 {
+  padding: 0.8rem !important;
+}
+.pt-4-5 {
+  padding-top: 2.5rem !important;
+}
+
+.px-4-5 {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+.px-4-5-2 {
+  padding-right: 2.125rem !important;
+  padding-left: 2.125rem !important;
+}
+.g-4-5 {
+  --bs-gutter-x: 2rem;
+  --bs-gutter-y: 2rem;
+}
+.px-6 {
+  padding-right: 3.5rem !important;
+  padding-left: 3.5rem !important;
+}
+
+/* Bootstrap Replace */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.btn-light,
+.btn-light:hover {
+  color: var(--primary);
+}
+
+.btn-check:active + .btn-outline-primary:focus,
+.btn-check:checked + .btn-outline-primary:focus,
+.btn-outline-primary.active:focus,
+.btn-outline-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.25rem var(--primaryLight) !important;
+}
+
+.btn-outline-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: transparent !important;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary,
+.btn-outline-primary:hover,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary:active {
+  border-color: var(--primary);
+  background: var(--primary) !important;
+}
+
+h1 {
+  font-size: 3.375rem;
+}
+
+.text-muted {
+  color: #4d4d4d;
+}
+.btn-transparent,
+.btn-link,
+.btn-transparent:hover,
+.btn-link:hover {
+  color: var(--primary);
+  padding-left: 0;
+}

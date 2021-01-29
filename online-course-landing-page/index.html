@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="header" class="position-absolute top-0 start-0 w-100">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg pt-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand pe-header m-0" href="#">
+                        <img src="/imgs/logo-web.svg" alt="" style="width: 108px; height: 29px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-menu">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item me-menu">
+                                <a class="nav-item nav-link" href="#">Class</a>
+                            </li>
+                            <li class="nav-item me-menu">
+                                <a class="nav-item nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item me-menu">
+                                <a class="nav-item nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item me-menu">
+                                <a class="nav-item nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <a class="nav-item nav-link me-3" href="#">Login</a>
+                            <button type="button" class="btn btn-outline-primary ms-3 px-4 py-2">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="hero">
+        <div class="container">
+            <div class="row position-relative g-0">
+                <div class="col-md-6 align-self-center d-flex flex-column hero-text position-relative">
+                    <h1 class="font-serif mb-4 pt-5 mt-0 mt-sm-5">
+                        <b><mark>Build</mark> your passion by shaping your <mark>Skill</mark> at Onedy</b>
+                    </h1>
+                    <h4 class="fs-7 lead w-75 lh-base">
+                        online learning with thousands of classes on topics including illustration,
+                        design,photography,video, and freelancing.
+                    </h4>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-primary px-4-5-2 py-3 mt-4 me-3">Get Started</button>
+                        <button type="button" class="btn btn-outline-primary px-4-5-2 py-3 ms-3 mt-4">Learn
+                            more</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 pt-5 d-none d-md-block hero-image overflow-visible">
+                    <img src="imgs/woman.png" alt="" class="pt-4 invisible">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="brands">
+        <div class="container p-5">
+            <div class="d-flex flex-column flex-lg-row justify-content-around">
+                <img src="imgs/companies/google.png" alt="" class="img-fluid align-self-center">
+                <img src="imgs/companies/linkedin.png" alt="" class="img-fluid align-self-center pt-5 pt-lg-0">
+                <img src="imgs/companies/business-insider.png" alt="" class="img-fluid align-self-center pt-5 pt-lg-0">
+                <img src="imgs/companies/samsung.png" alt="" class="img-fluid align-self-center pt-5 pt-lg-0">
+                <img src="imgs/companies/careem.png" alt="" class="img-fluid align-self-center pt-5 pt-lg-0">
+            </div>
+        </div>
+    </div>
+    <div id="features">
+        <div class="container">
+            <div class="row mt-5 pt-5 align-middle text-center d-flex justify-content-center">
+                <h2 class="font-serif">
+                    <b>Features</b>
+                </h2>
+                <h4 class="fs-7  lead col-sm-5 px-md-4">
+                    You can explore the features that we provide with fun and have their own functions each feature.
+                </h4>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 pt-4-5 g-2">
+
+                <div class="col">
+                    <div class="container pt-lg-5">
+                        <div class="card">
+                            <div class="card pb-5">
+                                <div
+                                    class="mx-auto white bg-primary mt-3 p-2-3 rounded-circle border border-5 border-ligth">
+                                    <img src="imgs/board.svg" class="img-fluid">
+                                </div>
+                                <div class="card-body text-center px-5">
+                                    <div class="mx-auto py-2"><b>HQ Curriculum</b></div>
+                                    <div class="mx-auto px-4-5 text-break">We provide a curriculum formed by a team of
+                                        onedy experts
+                                        who
+                                        is
+                                        proven
+                                        to shape students better</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="container">
+                        <div class="card">
+                            <div class="card card-highlited pb-5">
+                                <div
+                                    class="avatar mx-auto white bg-primary mt-3 p-2-3 rounded-circle border border-5 border-ligth">
+                                    <img src="imgs/presentation.svg" class="img-fluid">
+                                </div>
+                                <div class="card-body text-center px-5">
+                                    <div class="mx-auto py-2"><b>Profesional Instructor</b></div>
+                                    <div class="mx-auto px-4-5 text-break">
+                                        Our instructors are highly professional people who are experts in teaching and
+                                        learning
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="container pt-lg-5">
+                        <div class="card">
+                            <div class="card pb-5">
+                                <div
+                                    class="avatar mx-auto white bg-primary mt-3 p-2-3 rounded-circle border border-5 border-ligth">
+                                    <img src="imgs/paper.svg" class="img-fluid">
+                                </div>
+                                <div class="card-body text-center px-5">
+                                    <div class="mx-auto py-2"><b>Study Report</b></div>
+                                    <div class="mx-auto px-4-5 text-break">
+                                        we provide a report on the learning outcomes of students who have completed the
+                                        class
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="popular">
+        <div class="container pb-5">
+            <div class="row row-cols-1 mt-5 pt-5 align-middle d-flex pb-4 ">
+                <div class="col">
+                    <h2 class="font-serif">
+                        <b>Our Populer Class</b>
+                    </h2>
+                </div>
+                <div class="col d-flex flex-sm-row flex-column justify-content-between">
+                    <h4 class="col fs-7 text-muted fw-normal pe-md-5">
+                        You can explore the courses we provide with fun and full of new knowledge.
+                    </h4>
+                    <div class="d-flex justify-content-end mt-md-0 mt-3 ">
+                        <select class="form-select w-25" aria-label="All">
+                            <option value="1" selected>All</option>
+                            <option value="2">Some</option>
+                            <option value="3">None</option>
+                        </select>
+                        <button type="button" class="btn btn-primary p-2 fs-6 ms-3">
+                            <span class="p-2">See All Class &#8250;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img position-relative">
+                            <img src="/imgs/classes/uiux.png" class="card-img-top" alt="">
+                            <div class="card-img-text position-absolute top-0 start-0 w-100 h-100">
+                                <div
+                                    class="card-heart position-absolute rounded-circle d-flex align-items-center justify-content-center">
+                                    <img src="imgs/heart.svg" alt="">
+                                </div>
+                                <div
+                                    class="card-img-content position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                                    <h1 class="fs-4 font-serif">
+                                        UI/UX</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-body pb-4">
+                            <div class="card-star d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <img src="imgs/star.svg" alt="" class="pe-2">
+
+                                    <span class="text-mute">5.0 (1204)</span>
+                                </div>
+                                <div class="fire rounded-circle d-flex justify-content-center align-items-center">
+                                    <img src="imgs/fire.svg" alt="">
+                                </div>
+                            </div>
+                            <h5 class="card-title class-title pt-2">UI/UX Case Studies Portfolio Masterclass</h5>
+                            <p class="card-text text-muted">Teacher - Nathalie Rohman</p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div class="d-flex align-items-center text-muted">
+                                    <img src="imgs/group.svg" alt="" class="me-2">
+                                    2029 Students
+                                </div>
+                                <div class="btn btn-info btn-join">
+                                    Go Join!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img position-relative">
+                            <img src="/imgs/classes/ilust.png" class="card-img-top" alt="">
+                            <div class="card-img-text position-absolute top-0 start-0 w-100 h-100">
+                                <div
+                                    class="card-heart position-absolute rounded-circle d-flex align-items-center justify-content-center">
+                                    <img src="imgs/heart.svg" alt="">
+                                </div>
+                                <div
+                                    class="card-img-content position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                                    <h1 class="fs-4 font-serif">
+                                        Illustration</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-body pb-4">
+                            <div class="card-star d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <img src="imgs/star.svg" alt="" class="pe-2">
+
+                                    <span class="text-mute">5.0 (553)</span>
+                                </div>
+                                <div class="fire rounded-circle d-flex justify-content-center align-items-center">
+                                    <img src="imgs/fire.svg" alt="">
+                                </div>
+                            </div>
+                            <h5 class="card-title class-title pt-2">Procreate: Simple Steps to Create Awesome Animations
+                            </h5>
+                            <p class="card-text text-muted">Teacher - Abraham Mabar</p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div class="d-flex align-items-center text-muted">
+                                    <img src="imgs/group.svg" alt="" class="me-2">
+                                    314 Students
+                                </div>
+                                <div class="btn btn-info btn-join">
+                                    Go Join!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img position-relative">
+                            <img src="/imgs/classes/photo.png" class="card-img-top" alt="">
+                            <div class="card-img-text position-absolute top-0 start-0 w-100 h-100">
+                                <div
+                                    class="card-heart position-absolute rounded-circle d-flex align-items-center justify-content-center">
+                                    <img src="imgs/heart.svg" alt="">
+                                </div>
+                                <div
+                                    class="card-img-content position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                                    <h1 class="fs-4 font-serif">
+                                        Photography</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-body pb-4">
+                            <div class="card-star d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <img src="imgs/star.svg" alt="" class="pe-2">
+
+                                    <span class="text-mute">5.0 (215)</span>
+                                </div>
+                                <div class="fire rounded-circle d-flex justify-content-center align-items-center">
+                                    <img src="imgs/fire.svg" alt="">
+                                </div>
+                            </div>
+                            <h5 class="card-title class-title pt-2">Prepare for Your Shoot Without Breaking the Bank
+                            </h5>
+                            <p class="card-text text-muted">Teacher - Felix Junaedi</p>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div class="d-flex align-items-center text-muted">
+                                    <img src="imgs/group.svg" alt="" class="me-2">
+                                    234 Students
+                                </div>
+                                <div class="btn btn-info btn-join">
+                                    Go Join!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div id="provide">
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="text-center pb-4">
+                    <h2 class="font-serif">
+                        <b>What Do We Provide</b>
+                    </h2>
+                    <h4 class="fs-7 lead">Shape your future with passion </h4>
+                </div>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-xl-2 g-4-5">
+                        <div class="col d-flex align-items-center justify-content-start mb-5 video-thumbnail">
+                            <img src="imgs/video-thumbnail.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div
+                            class="col d-flex flex-column align-items-start justify-content-center “We help people to reach their dreams”class-title pb-4">
+                            <h4>“We help people to reach their dreams”</h4>
+                            <span class="text-muted fs-5 mt-4 fw-normal">
+                                We provide young people with development and networking opportunities in their mediation
+                                practice. We also support peer mediation services in schools and organisations and
+                                promote the sustainability of peer mediation programmes.
+                            </span>
+                            <button type="button" class="btn btn-link">Learn more &#8250;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testemonial">
+        <div class="container pb-5">
+            <div class="row row-cols-1 mt-5 pt-5 align-middle d-flex pb-4 ">
+                <div class="col">
+                    <h2 class="font-serif">
+                        <b>What Our Students Say?</b>
+                    </h2>
+                </div>
+                <div class="col">
+                    <h4 class="col col-lg-5 fs-7 text-muted fw-normal mb-4">
+                        These are the stories of our students who have joined us with great pleasure when using this
+                        feature.
+                    </h4>
+                </div>
+                <div class="col">
+                    <!-- carousel item 1 -->
+                    <div class="row flex-nowrap overflow-auto">
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/women/35.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/men/16.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">UI/UX Designer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/women/22.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Web Developer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/men/46.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Product Designer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/women/27.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- // carousel item 1 -->
+
+
+                </div>
+                <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                               
+                    <div class="row flex-nowrap">
+
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/lego/2.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/lego/2.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/lego/2.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/lego/2.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card mt-5" style="width: 16.56rem;">
+                                <img class="avatar rounded-circle mx-auto m-n5"
+                                    src="https://randomuser.me/api/portraits/lego/2.jpg" alt="">
+                                <div class="card-body pb-5">
+                                    <h5 class="card-title d-flex flex-column align-items-center pt-2">
+                                        <div class="fs-6 fw-normal lh-sm pb-1">Viezh Robert</div>
+                                        <div class="fs-7 fw-normal text-muted lh-sm">Photographer</div>
+                                    </h5>
+                                    <div class="d-flex justify-content-center align-items-start pb-1">
+                                        <span class="text-mute">5.0</span>
+                                        <img src="imgs/star.svg" alt="" class="ps-2">
+                                    </div>
+                                    <p class="card-text lh-base fs-7 text-center px-2 mb-4">
+                                        “I like it because I like to study so much and still can connect
+                                        with high
+                                        speed.”
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div> -->
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="fees">
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="text-center pb-3">
+                    <h2 class="font-serif h-50 pb-2">
+                        <b>Subscription Fee</b>
+                    </h2>
+                    <h4 class="fs-7 lead text-muted">No contracts. No surprise fees.</h4>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                    <div class="btn-group" role="group" aria-label="Change duration of plan">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary fs-7 p-2" for="btnradio1"><span
+                                class="py-2 px-4">Montly</span></label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary fs-7 p-2" for="btnradio2"><span
+                                class="py-2 px-4">Yearly</span></label>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-3 pt-4-5 g-0 g-md-3 px-3 px-md-5">
+                    <div class="col container pt-lg-5 pb-4">
+                        <div class="card card-primary mx-md-3">
+                            <div class="card-body px-4-5">
+                                <div class="py-2 fs-2 d-flex align-items-center">
+                                    <span class="fw-medium me-2">0$</span>
+                                    <span class="fs-6 fw-normal">/ Month</span>
+                                </div>
+                                <div class="fs-5-6 mb-2">
+                                    Free Member
+                                </div>
+                                <div class="fs-7 text-muted">
+                                    For most businesses that want to otpimize web queries
+                                </div>
+                                <dl class="row mt-3 mb-0">
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">Free course</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked disabled rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">
+                                        <s>Full HD video</s>
+                                    </dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked disabled rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">
+                                        <s>E-Certificate</s>
+                                    </dd>
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked disabled rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">
+                                        <s>Subtitle video</s>
+                                    </dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked disabled rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">
+                                        <s>Chat Support</s>
+                                    </dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked disabled rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">
+                                        <s>Study report</s>
+                                    </dd>
+
+                                    <div class="col mt-2 mx-md-3">
+                                        <div class="btn btn-outline-primary fs-7 w-100 px-md-5"
+                                            style="padding: 0.75rem; padding-left: 3.5625rem; padding-right: 3.5625rem;">
+                                            Choose plan
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col container pb-4">
+                        <div class="card card-primary card-highlited mx-md-3">
+                            <div class="card-body shadow-premium px-4-5">
+                                <div class="py-2 fs-2 d-flex align-items-center">
+                                    <span class="fw-medium me-2">12$</span>
+                                    <span class="fs-6 fw-normal">/ Month</span>
+                                </div>
+                                <div class="fs-5-6 mb-2">
+                                    Premium Member
+                                </div>
+                                <div class="fs-7">
+                                    For most businesses that want to otpimize web queries
+                                </div>
+                                <dl class="row mt-3 mb-0">
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked premium rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">Premium course</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div class=" checked premium rounded-circle d-flex justify-content-center
+                                        align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">Full HD video</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div class=" checked premium rounded-circle d-flex justify-content-center
+                                align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">E-Certificate</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div class=" checked premium rounded-circle d-flex justify-content-center
+                            align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">Subtittle video</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div class=" checked premium rounded-circle d-flex justify-content-center
+                        align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">Chat support</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div class=" checked premium rounded-circle d-flex justify-content-center
+                    align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 fs-8">Study report </dd>
+
+
+                                    <div class="col mt-2">
+                                        <div class="btn btn-light fs-7 w-100 px-md-5"
+                                            style="padding: 0.75rem; padding-left: 3.5625rem; padding-right: 3.5625rem;">
+                                            Choose plan
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col container pt-lg-5">
+                        <div class="card card-primary mx-md-3">
+                            <div class="card-body px-4-5">
+                                <div class="py-2 fs-2 d-flex align-items-center">
+                                    <span class="fw-medium me-2">24$</span>
+                                    <span class="fs-6 fw-normal">/ Month</span>
+                                </div>
+                                <div class="fs-5-6 mb-2">
+                                    Exclusive Member
+                                </div>
+                                <div class="fs-7 text-muted">
+                                    For most businesses that want to otpimize web queries
+                                </div>
+                                <dl class="row mt-3 mb-0">
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 disabled fs-8">Exclusive course</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 disabled fs-8">Full HD+ video</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 disabled fs-8">E-Certificate</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 disabled fs-8">Subtittle video</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 disabled fs-8">Chat support</dd>
+
+                                    <dt class="col-2 col-md-1">
+                                        <div
+                                            class="checked rounded-circle d-flex justify-content-center align-items-center">
+                                            <svg width="12" height="10" viewBox="0 0 12 10"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8059 1.83362L6.1017 9.57445C5.96566 9.75494 5.76281 9.8732 5.53872 9.90266C5.31463 9.93213 5.0881 9.87031 4.91003 9.73112L0.836701 6.47445C0.477255 6.1868 0.419052 5.66223 0.706701 5.30278C0.994349 4.94334 1.51892 4.88514 1.87837 5.17278L5.27503 7.89028L10.4642 0.847784C10.6344 0.592442 10.9311 0.45127 11.2365 0.480315C11.542 0.509361 11.8068 0.703925 11.9258 0.986761C12.0448 1.2696 11.9987 1.59494 11.8059 1.83362Z" />
+                                            </svg>
+                                        </div>
+                                    </dt>
+                                    <dd class="col-10 col-md-10 mb-3 ms-md-3 p-0 disabled fs-8">Study report </dd>
+
+
+                                    <div class="col mt-2 mx-md-3">
+                                        <div class="btn btn-outline-primary fs-7 w-100 px-md-5"
+                                            style="padding: 0.75rem; padding-left: 3.5625rem; padding-right: 3.5625rem;">
+                                            Choose plan
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blog">
+        <div class="container py-5">
+            <h2 class="font-serif">
+                <b>Explore Our Blogs</b>
+            </h2>
+            <div class="d-flex flex-sm-row flex-column justify-content-between">
+                <h4 class="fs-7 text-muted fw-normal mb-4">
+                    These are articles written by teachers from Onedy that will help you in learning, living life,
+                    and self-awareness
+                </h4>
+                <button type="button" class="btn btn-primary p-2 fs-6 ms-md-3">
+                    <span class="p-2">See All News ›</span>
+                </button>
+            </div>
+            <div class="row flex-nowrap overflow-auto mt-5 pt-5 ">
+                <div class="col-lg-5 col-10">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="/imgs/blog/post-1.png" alt="" class="d-block w-100">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body text-start pb-0">
+                                    <div class="fs-8 text-muted d-flex justify-content-between pb-2">
+                                        <div class="fw-medium">SELF-IMPROVEMENT</div>
+                                        <div>3 days ago</div>
+                                    </div>
+                                    <h5 class="card-title fs-7 fw-bold lh-base pb-2">
+                                        What 10 things have you stopped doing in your life?
+                                    </h5>
+                                    <p class="card-text fs-8 text-muted lh-sm">
+                                        What 10 things have you stopped doing in your life? Our brains aren’t designed
+                                        to process all the news...
+                                    </p>
+                                    <div class="fs-8 text-muted d-flex justify-content-between pb-2 pb-md-0">
+                                        <div>
+                                            <img src="imgs/blog/author/a.png" alt="">
+                                            <span class="ms-2">Alexis Megami</span>
+                                        </div>
+                                        <div class="btn btn-transparent fs-8">
+                                            Read more 🡢
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-10">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="/imgs/blog/post-2.png" alt="" class="d-block w-100">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body text-start pb-0">
+                                    <div class="fs-8 text-muted d-flex justify-content-between pb-2">
+                                        <div class="fw-medium">PRODUCTIVITY</div>
+                                        <div>3 days ago</div>
+                                    </div>
+                                    <h5 class="card-title fs-7 fw-bold lh-base pb-2">
+                                        What is the most useful life hack in studying?
+                                    </h5>
+                                    <p class="card-text fs-8 text-muted lh-sm">
+                                        We hear it around us all the time. Elon Musk works 14 hours per day. Marissa
+                                        Mayer works 130 hours per...
+                                    </p>
+                                    <div class="fs-8 text-muted d-flex justify-content-between pb-2 pb-md-0">
+                                        <div>
+                                            <img src="imgs/blog/author/g.png" alt="">
+                                            <span class="ms-2">Glenn Raders</span>
+                                        </div>
+                                        <div class="btn btn-transparent fs-8">
+                                            Read more 🡢
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-10">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="/imgs/blog/post-3.png" alt="" class="d-block w-100">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body text-start pb-0">
+                                    <div class="fs-8 text-muted d-flex justify-content-between pb-2">
+                                        <div class="fw-medium">PRODUCTIVITY</div>
+                                        <div>3 days ago</div>
+                                    </div>
+                                    <h5 class="card-title fs-7 fw-bold lh-base pb-2">
+                                        What is the most useful life hack in studying?
+                                    </h5>
+                                    <p class="card-text fs-8 text-muted lh-sm">
+                                        We hear it around us all the time. Elon Musk works 14 hours per day. Marissa
+                                        Mayer works 130 hours per...
+                                    </p>
+                                    <div class="fs-8 text-muted d-flex justify-content-between pb-2 pb-md-0">
+                                        <div>
+                                            <img src="imgs/blog/author/g.png" alt="">
+                                            <span class="ms-2">Glenn Raders</span>
+                                        </div>
+                                        <div class="btn btn-transparent fs-8">
+                                            Read more 🡢
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="worldwide">
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="text-center pb-3">
+                    <h2 class="font-serif">
+                        <b>let's join together with the others</b>
+                    </h2>
+                    <h4 class="fs-7 lead text-muted">
+                        More than 2+ million people from 73 countries around the world have joined us.
+                    </h4>
+                    <img src="imgs/map-global.png" alt="" class="img-fluid py-5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="joinus" class="pb-5">
+        <div class="join container text-center rounded mb-5">
+            <div class="mb-4">
+                <h3>
+                    Do You Want To Be an Instructor?
+                </h3>
+                <h6 class="text-muted fw-normal">Join us to build a better students</h6>
+            </div>
+            <div class="btn btn-primary p-3 px-4 me-3">
+                Join with Us
+            </div>
+            <div class="btn btn-outline-primary p-3 px-4 px-5">
+                FAQ
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row p-4 pb-0">
+                <div class="col-md-4 d-flex flex-column align-items-start">
+                    <img src="imgs/logo-bl.svg" alt="" class="pb-3">
+                    <span>
+                        <b>Onedy</b> is an online learning school that will help people acquire new skills.
+                    </span>
+                    <div class="d-flex mt-3">
+                        <img src="/imgs/location.svg" alt="" class="me-3 align-self-start">
+                        Jl. Pemuda Tersesat No. 296, Jakarta Timur Indonesia
+                    </div>
+                    <div class="d-flex mt-3">
+                        <img src="/imgs/mail.svg" alt="" class="me-3">
+                        hello@onedy.com
+                    </div>
+                    <div class="d-flex around mt-3">
+                        <img src="imgs/social/Facebook.svg" alt="" class="me-4">
+                        <img src="imgs/social/Instagram.svg" alt="" class="me-4">
+                        <img src="imgs/social/Twitter.svg" alt="" class="me-4">
+                        <img src="imgs/social/Youtube.svg" alt="" class="me-4">
+                    </div>
+                </div>
+                <div class="col-md-8 d-flex flex-column align-items-start">
+                    <div class="row col w-100">
+                        <div class="col">
+                            <div class="d-flex flex-column mt-2 pt-4 pt-md-0">
+                                <b class="mb-4 text-dark">Company</b>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">About</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Contact</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Careers</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Blog</a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex flex-column mt-2 pt-4 pt-md-0">
+                                <b class="mb-4 text-dark">Support</b>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">FAQs</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Privacy Policy</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Help</a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex flex-column mt-2 pt-4 pt-md-0">
+                                <b class="mb-4 text-dark">Community</b>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Telegram</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Go Premium</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Affiliates</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Free Classes</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Scholarship</a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="d-flex flex-column mt-2 pt-4 pt-md-0">
+                                <b class="mb-4 text-dark">Terms</b>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Privacy Policy</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Terms and Conditions</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Copyright Policy</a>
+                                <a href="#" class="text-decoration-none mb-4 text-muted">Security</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container pb-3">
+            <div class="d-flex flex-md-row flex-column">
+                <div class="col d-flex justify-content-center justify-content-md-start">
+                    Terms and Conditions
+                </div>
+                <div class="col d-flex justify-content-center">
+                    23,022,039 Registered User
+                </div>
+                <div class="col d-flex justify-content-start justify-content-md-end text-center">
+                    Copyright © 2020 Onedy All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

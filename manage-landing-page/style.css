@@ -1,0 +1,252 @@
+/* Note: Values were *estimated* from the images */
+:root {
+  --Bright-Red: hsl(12, 88%, 59%);
+  --Dark-Blue: hsl(228, 39%, 23%);
+
+  --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+  --Very-Dark-Blue: hsl(233, 12%, 13%);
+  --Very-Pale-Red: hsl(13, 100%, 96%);
+  --Vary-Light-Gray: hsl(0, 0%, 98%);
+}
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--Dark-Blue) !important;
+}
+
+/* Note: Sortof replace for container since it uses a different grid system */
+.holder {
+  max-width: 1125px;
+  overflow: hidden;
+}
+
+.nav-item {
+  padding: 0px 8px;
+}
+.m-nav {
+  margin-top: -6px;
+}
+
+/* .bg-north {
+  position: relative;
+}
+.bg-north::after {
+  content: '';
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  top: -50%;
+  background-image: url('images/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-position: -50% 350%;
+  z-index: -1;
+} */
+
+.img-hero {
+  /* max-width: 113%; */
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 119.1%;
+}
+
+.sect-title {
+  font-size: 2.4375rem;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: -0.005em;
+  margin-bottom: 2.125rem;
+}
+/* "different" section */
+.diff-number {
+  background: var(--Bright-Red);
+  color: #fff;
+  font-weight: 700;
+  padding-top: 0.4375rem !important;
+  padding-bottom: 0.4375rem !important;
+}
+.diff-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  margin-top: -3px;
+}
+.mt-points {
+  margin-top: 2.525rem !important;
+}
+
+/* Testemonials */
+.testemonial {
+  position: relative;
+}
+.test-img img {
+  max-width: 72px;
+  height: auto;
+}
+.test-img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 1;
+  margin-top: -7%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.test-name {
+  font-weight: 700;
+  color: var(--Dark-Blue);
+  margin-bottom: 1.1rem;
+  text-align: center;
+}
+.test-text {
+  line-height: 166%;
+}
+
+/* footer */
+#pre-footer {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 110.19%;
+  letter-spacing: -0.02em;
+  padding-top: 4rem;
+  padding-bottom: 4.25rem;
+}
+#footer {
+  padding: 3.8125rem 0;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 0.8125rem;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.02rem;
+}
+.footer-input {
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.04rem;
+  padding: 12px 16px;
+  margin-left: -16px;
+  margin-top: 4px;
+  width: 77%;
+}
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+}
+/* Classes using Bootstrap naming scheme */
+.mb-hero {
+  margin-bottom: 2.5rem;
+}
+.mt-hero {
+  margin-top: 2.125rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.8125rem !important;
+  color: var(--Dark-Blue);
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--Very-Dark-Blue);
+}
+.py-075 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+.pt-5 {
+  padding-top: 3.6rem !important;
+}
+.ms-p018 {
+  margin-left: 0.1875rem;
+}
+.mt-7 {
+  margin-top: 7rem;
+}
+.ms-175 {
+  margin-left: 1.75rem;
+}
+.mb-p6 {
+  margin-bottom: 0.6rem !important;
+}
+
+.lh-hero {
+  line-height: 1.625rem;
+}
+.lh-desc {
+  line-height: 26px;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+.w-80 {
+  width: 81% !important;
+}
+.px-19 {
+  padding-right: 1.9rem !important;
+  padding-left: 1.9rem !important;
+}
+
+/* Changes to Bootstrap classes */
+.bg-primary {
+  background-color: var(--Bright-Red) !important;
+  color: #fff;
+}
+.bg-secondary {
+  background-color: var(--Dark-Blue) !important;
+}
+.text-muted {
+  color: var(--Dark-Grayish-Blue);
+}
+.btn-primary,
+.btn-primary:hover {
+  background: var(--Bright-Red);
+  border-color: var(--Bright-Red);
+}
+.btn-light,
+.btn-light:hover {
+  color: var(--Bright-Red);
+}
+.btn,
+.btn:hover {
+  border-radius: 20px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+.btn:hover,
+.footer-link a:hover {
+  filter: brightness(90%);
+}
+
+@media (max-width: 768px) {
+  .order-12 {
+    -ms-flex-order: 12;
+    order: 12;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg-north::after {
+    display: none;
+  }
+  .justify-sm-content-center {
+    justify-content: center !important;
+  }
+  .bg-sm {
+    background: var(--Very-Pale-Red);
+    border-radius: 25px 0 0 25px;
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
